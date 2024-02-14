@@ -71,10 +71,10 @@ with mp_face_mesh.FaceMesh(min_detection_confidence=0.5,
                     if abs(top_lip.y - bot_lip.y) > 0.05:
                         if not opened:
                             print("Abrio")
-                            pyautogui.hotkey('win', 'd')
+                            # pyautogui.hotkey('win', 'd')
 
 
-                            # playsound("moan.mp3")
+                            playsound("moan.mp3")
                             # file = "moan.mp3"
                             # os.system("start " + file)
 
